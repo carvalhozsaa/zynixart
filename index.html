@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZynixArt - Seu espaço para criatividade e uploads de imagens.">
+    <title>ZynixArt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ZynixArt</h1>
+            <p>Por Gabriel e Diegny</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#upload">Upload de Imagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área Inicial -->
+    <section id="home" class="section-home">
+        <h2>Bem-vindo ao ZynixArt!</h2>
+        <p>Explore e compartilhe sua criatividade aqui. Veja as imagens que foram enviadas.</p>
+
+        <!-- Galeria de Imagens -->
+        <div id="galeria" class="galeria">
+            <!-- As imagens carregadas aparecerão aqui -->
+        </div>
+    </section>
+
+    <!-- Formulário de Feedback -->
+    <section id="feedback" class="section-feedback">
+        <h2>Deixe seu Feedback</h2>
+        <form id="form-feedback">
+            <textarea id="feedback-text" placeholder="Sua opinião sobre o site" required></textarea>
+            <button type="submit">Enviar Feedback</button>
+        </form>
+    </section>
+
+    <!-- Upload de Imagens -->
+    <section id="upload" class="section-upload">
+        <h2>Envie suas Imagens</h2>
+        <p>Você pode adicionar até 20 imagens.</p>
+        <input type="file" id="upload-imagem" accept="image/*" multiple>
+        <button id="upload-btn">Enviar Imagens</button>
+        <p id="upload-msg"></p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section-contato">
+        <h2>Entre em contato</h2>
+        <p>Email: <a href="mailto:zynixart@gmail.com">zynixart@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ZynixArt - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
